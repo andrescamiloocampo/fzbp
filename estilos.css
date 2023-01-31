@@ -44,6 +44,10 @@ header {
     cursor: pointer;
 }
 
+.foto img{
+    width: 100%;
+}
+
 .logo {
     margin: 15px;
     width: 60px;
@@ -217,6 +221,12 @@ nav img:hover{
         height: 200px;
         margin-right: 5px;
     }
+}
+
+@media (width:375px){
+    .informativo{
+        height: 20%;
+    }
 
     nav{
         margin-left: 50px;
@@ -228,14 +238,44 @@ nav img:hover{
     }
 }
 
-@media (width:375px){
-    .informativo{
-        height: 20%;
-    }
-}
-
 @media (width:720px){
     .informativo{
         height: 20%;
     }
+
+    nav{
+        margin-left: 50px;
+    }
+
+    nav img{
+        width: 40px;
+        margin-right: 10px;
+    }
+}
+
+#user{
+    display: flex;
+    width: 20%;
+    height: 50%;
+    background-color: rgb(39, 35, 35);
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 80%;
+    flex-direction: column;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+#user article{
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+#user a{    
+    text-decoration: none;
+    color: white;
 }

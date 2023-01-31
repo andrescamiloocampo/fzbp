@@ -5,7 +5,9 @@ const app = {
         return {
             indice: 1,
             url: `imagenes/1.jpg`,
-            estado: false
+            estado: false,
+            open:false,
+            nombre:''
         }
     },
     mounted() {
@@ -35,5 +37,4 @@ const app = {
         }
     }
 }
-
 var mountedApp = Vue.createApp(app).mount('#app')

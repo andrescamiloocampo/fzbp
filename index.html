@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
     <script src="codigo.js" defer></script>
     <title>Fizebad project</title>
 </head>
@@ -17,8 +20,10 @@
 <body>
     <main id="app">
         <header>
-            <div class="login">
-                <div class="foto"></div>
+            <div class="login" @click="open = !open">
+                <div class="foto">
+                    <img src="imagenes/usuarioImagen.png" alt="">
+                </div>
             </div>
 
             <div class="logo">
@@ -30,7 +35,17 @@
                 <h1>Fizebad Project</h1>
             </div>
         </header>
-
+        <section id="user" v-show="open">
+            <article id="inicioSesion">
+                <a href="inicioSesion.html">Iniciar Sesión</a>
+            </article>
+            <article id="Registro">
+                Registrarse
+            </article>
+            <article id="Configuracion">
+                Configuración
+            </article>
+        </section>
         <article class="informativo">
             <img :src="url" alt="">
             <section class="circulo" id="c1">
@@ -91,7 +106,7 @@
         </section>
 
         <footer>
-            
+
             <nav class="redes_sociales">
                 <section class="linkRed" id="facebook">
                     <a href="https://facebook.com">
