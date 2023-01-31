@@ -233,3 +233,9 @@ nav img:hover{
         height: 20%;
     }
 }
+
+@media (width:720px){
+    .informativo{
+        height: 20%;
+    }
+}
