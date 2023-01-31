@@ -13,6 +13,8 @@ main {
     width: 100%;
     height: 100%;
     text-align: center;
+    min-width: 410px;
+    min-height: 500px;
 }
 
 header {
@@ -195,5 +197,13 @@ nav img{
 }
 
 nav img:hover{
-    width: 60px;
+    width: 55px;
+}
+
+@media (width:410px) {
+    .informativo{
+        width: 100%;
+        height: 20%;
+        margin-left: 20%;
+    }
 }
