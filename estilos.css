@@ -1,0 +1,199 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    background-color: rgb(39, 35, 35);
+    width: 100%;
+    height: 150px;
+    color: white;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.login {
+    margin: 10px;
+    order: 3;
+}
+
+.login .foto {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.logo {
+    margin: 15px;
+    width: 60px;
+    height: 60px;
+    order: 1;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    margin: 10px;
+    order: 2;
+}
+
+.informativo {
+    display: flex;
+    width: 50%;
+    height: 60%;
+    margin-left: 25%;
+    margin-top: 10%;
+    box-shadow: 2px 4px 9px 0px rgba(133, 124, 133, 1);
+}
+
+.informativo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.membresias {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.membresia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-top: 5%;
+    background-color: white;
+    box-shadow: 2px 4px 9px 0px rgba(133, 124, 133, 1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* .membresia:hover{
+    justify-content: left;
+    flex-grow: 1;
+} */
+
+.mem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    margin-top: 5%;
+    width: fit-content;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    letter-spacing: 10px;
+    font-size: 14px;
+}
+
+.Empresa{
+    display: flex;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 8%;
+    width: 80%;
+    background-color: inherit;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    color: white;
+}
+
+#mision{
+    background-color: blue;
+    padding: 5%;
+    margin-right: 5%;
+    background-color:rgb(39, 35, 35);
+    font-size: 20px;
+}
+
+#vision{
+    background-color: green;
+    padding: 5%;
+    background-color:rgb(39, 35, 35);
+    font-size: 20px;
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 10%;
+}
+
+.serv{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 2%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#t_servicios{
+    margin-top: 10%;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 10px;
+}
+
+.servicios{
+    background-color: white;
+    margin-top:5%;
+    width: 30%;
+    height: 80%;
+    box-shadow: 2px 4px 9px 0px rgba(133, 124, 133, 1);
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 25%;
+    margin-top:20%;
+    background-color: rgb(39, 35, 35);
+    align-items: center;
+    color: white;
+}
+
+nav{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav img{
+    width: 50px;
+    transition: .2s;
+}
+
+nav img:hover{
+    width: 60px;
+}

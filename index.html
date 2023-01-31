@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="codigo.js" defer></script>
+    <title>Fizebad project</title>
+</head>
+
+<body>
+    <main id="app">
+        <header>
+            <div class="login">
+                <div class="foto"></div>
+            </div>
+
+            <div class="logo">
+                <img src="imagenes/tennis_icon-icons.com_53563.png" alt="">
+            </div>
+
+            <div class="title">
+                <!-- <h1 id="tituloP">FIZEBAD</h1> -->
+                <h1>Fizebad Project</h1>
+            </div>
+        </header>
+
+        <article class="informativo">
+            <img :src="url" alt="">
+            <section class="circulo" id="c1">
+            </section>
+            <section class="circulo" id="c2">
+            </section>
+        </article>
+        <div class="mem">
+            <h1>Membresias</h1>
+        </div>
+
+        <section class="membresias">
+            <article class="membresia" id="diamante" @click="crecer('#diamante')">
+                <img src="imagenes/diamond_115242.png" alt="diamante">
+            </article>
+            <article class="membresia" id="oro" @click="crecer('#oro')">
+                <img src="imagenes/1455554331_line-38_icon-icons.com_53317.png" alt="oro">
+            </article>
+            <article class="membresia" id="plata" @click="crecer('#plata')">
+                <img src="imagenes/Football_2-51_icon-icons.com_72068.png" alt="plata">
+            </article>
+            <article class="membresia" id="bronce" @click="crecer('#bronce')">
+                <img src="imagenes/Football_2-52_icon-icons.com_72070.png" alt="bronce">
+            </article>
+        </section>
+
+        <section class="Empresa">
+            <article class="empresa" id="mision">
+                <h2>¿Quienes somos?</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Saepe accusamus atque similique quam dignissimos,
+                    facilis ut aperiam deleniti dolorem, minus,
+                    libero nihil quis voluptatum unde consequatur
+                    repellendus accusantium veritatis sed?</p>
+            </article>
+
+            <article class="empresa" id="vision">
+                <h2>Nuestra vision empresarial</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Rem cum tempore, provident magnam similique consequatur minus voluptatem
+                    blanditiis aspernatur deleniti nesciunt fuga laudantium.
+                    Ea dicta atque velit, accusantium vel enim!</p>
+            </article>
+        </section>
+
+        <h3 id="t_servicios">Servicios</h3>
+        <section class="serv">
+            <article class="servicios" id="s1">
+            </article>
+
+            <article class="servicios" id="s2">
+            </article>
+
+            <article class="servicios" id="s3">
+            </article>
+        </section>
+
+        <footer>
+            
+            <nav class="redes_sociales">
+                <section class="linkRed" id="facebook">
+                    <a href="https://facebook.com">
+                        <img src="imagenes/facebook_logo_icon_147291.png" alt="">
+                    </a>
+                </section>
+
+                <section class="linkRed" id="instagram">
+                    <a href="https://instagram.com">
+                        <img src="imagenes/1491580635-yumminkysocialmedia26_83102.png" alt="">
+                    </a>
+                </section>
+
+                <section class="linkRed" id="twitter">
+                    <a href="https://twitter.com">
+                        <img src="imagenes/1491579542-yumminkysocialmedia22_83078.png" alt="">
+                    </a>
+                </section>
+                <!-- <h6>Redes sociales</h6> -->
+            </nav>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</body>
+
+</html>
