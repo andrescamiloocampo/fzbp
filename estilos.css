@@ -202,10 +202,9 @@ nav img:hover{
     width: 55px;
 }
 
-@media (width:375px) {
+@media (min-width:375px) {
     .informativo{
         width: 80%;
-        height: 20%;
         margin-left: 10%;
     }
 
@@ -226,5 +225,11 @@ nav img:hover{
     nav img{
         width: 40px;
         margin-right: 10px;
+    }
+}
+
+@media (width:375px){
+    .informativo{
+        height: 20%;
     }
 }
